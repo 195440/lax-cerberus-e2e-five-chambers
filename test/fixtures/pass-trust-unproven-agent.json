@@ -1,0 +1,31 @@
+{
+  "now": 1700000100,
+  "identity": {
+    "did": "did:example:agent-newbie",
+    "listingId": "listing-xyz-002",
+    "challenge": {
+      "issuedAt": 1700000000,
+      "expiresAt": 1700000300
+    },
+    "recoveredSigner": "owner-key-fingerprint-beta",
+    "expectedOwner": "owner-key-fingerprint-beta"
+  },
+  "trust": {
+    "acceptedDeliveries": 0,
+    "rejectedDeliveries": 0
+  },
+  "intent": {
+    "scope": "delivery.handoff",
+    "expiresAt": 1700003600,
+    "canonicalPayload": "{\"action\":\"deliver\",\"listing\":\"listing-xyz-002\"}",
+    "contextHash": "8fb98e0497a490a2e7c4e795342b09e6f3b1fa1bf6b7015605d0ca26561c13e8"
+  },
+  "soul": {
+    "protocolVersion": "SOUL/1",
+    "sentNonce": "nonce-sent-9b2c",
+    "peerNonceEcho": "nonce-sent-9b2c",
+    "expiresAt": 1700000300
+  },
+  "sessionTokenSecret": "TEST-ONLY-session-hmac-secret-not-for-production",
+  "sessionTokenTtlSeconds": 3600
+}
